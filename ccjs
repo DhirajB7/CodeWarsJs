@@ -1,0 +1,14 @@
+[...Array(5)].map((_,i)=>i) is [0,1,2,3,4] 
+digital root or add all numbers till one number remains. Formula is  (n-1)%9 + 1 [number mod 9 is digital root, but num%9 can be zero. so reduce one, mod then add 1]
+new Set(s1+s2)
+arr1+arr2 is[...arr1,...arr2]
+String()
+Number(34.567898989.toFixed(2)) is 34.56
+char to number ---- 'a'.charCodeAt()
+number to char ----- String.charCodeAt(5) [5 can be any number]
+if let name= "dhiraj" then ...name is d h i r a j
+let mp = new Map()
+all entries mp.entry()
+all entries as array [...mp]
+mp sort by key........ [...mp].sort()
+mp sort by value........ [...mp].sort((a,b) => a[1] - b [1])
