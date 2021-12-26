@@ -1,0 +1,1 @@
+const squareSum = (numbers) => numbers.length > 0 ? numbers.map(a => a*a).reduce((a,b) =>(a+b)) : 0
