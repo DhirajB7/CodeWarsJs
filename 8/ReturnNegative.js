@@ -1,0 +1,1 @@
+const makeNegative = (n) => n===0 ? 0 : Math.abs(n) * -1
