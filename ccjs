@@ -5,7 +5,7 @@ arr1+arr2 is[...arr1,...arr2]
 String()
 Number(34.567898989.toFixed(2)) is 34.56
 char to number ---- 'a'.charCodeAt()
-number to char ----- String.charCodeAt(5) [5 can be any number]
+number to char ----- String.fromCharCode(5) [5 can be any number]
 if let name= "dhiraj" then ...name is d h i r a j
 let mp = new Map()
 all entries mp.entry()
