@@ -1,11 +1,17 @@
 const solution = (str) => {
+  let answer = "";
 
-    const answer = ""
-
-    for(const data of str.split('')){
-        
+  for (const data of str.split("")) {
+    if (/[A-Z]/.test(data)) {
+      answer += " " + data;
+    } else {
+      answer += data;
     }
+  }
 
-    return answer
+  return answer;
+};
 
-}
+console.log(solution("camelCasing"))
+console.log(solution("identifier"));
+console.log(solution(""));
