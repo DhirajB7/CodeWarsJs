@@ -1,0 +1,1 @@
+const smallEnough = (a=[], limit) => a.every(b=>b<=limit)
