@@ -1,0 +1,1 @@
+const friend = (friends = []) => friends.filter(a=>String(a).length===4)
