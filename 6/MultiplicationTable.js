@@ -6,4 +6,4 @@ const multiplicationTable = (n) => {
     return answer
 }
 
-console.log(multiplicationTable(3))
+console.log(multiplicationTable(10))
