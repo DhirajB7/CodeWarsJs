@@ -1,0 +1,1 @@
+const sumDigits = (number) =>String(Math.abs(number)).split('').reduce((a,b)=>Number(a)+Number(b),0)

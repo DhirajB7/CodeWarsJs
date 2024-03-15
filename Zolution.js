@@ -1,3 +1,2 @@
-const arr = [1, 2, 3, 4, 5];
-
-console.log(arr.shift());
+const nameVariable = "-35"
+console.log(nameVariable.split(""))
