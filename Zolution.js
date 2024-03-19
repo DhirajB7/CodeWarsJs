@@ -1,2 +1,3 @@
-const nameVariable = "-35"
-console.log(nameVariable.split(""))
+console.log(1200 / 500);
+console.log(1200 / 200);
+[].reverse;
